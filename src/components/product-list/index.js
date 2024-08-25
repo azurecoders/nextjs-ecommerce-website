@@ -20,7 +20,7 @@ const ProductList = ({ productsFetched, loading }) => {
                 <Card className="border border-[#ccc]" key={index}>
                   <CardContent>
                     <div className="flex flex-col space-y-3 py-5 px-2">
-                      <Skeleton className="h-[125px] rounded-xl bg-gray-300 dark:bg-gray-700" />
+                      <Skeleton className="h-60 rounded-xl bg-gray-300 dark:bg-gray-700" />
                       <div className="space-y-2">
                         <Skeleton className="h-4 w-[200px] bg-gray-300 dark:bg-gray-700" />
                         <Skeleton className="h-4 w-[250px] bg-gray-300 dark:bg-gray-700" />
